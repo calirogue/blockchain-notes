@@ -6,3 +6,5 @@ open source blockchain notes and references
 1. Cryptozombies
 2. Polygon-matic 
 3. Decentraland 
+
+njc60378br
