@@ -21,3 +21,14 @@
 
 5. ganache-cli -v 
 - the -v flag is for verbose 
+
+6. Forking feature: fork the existing mainnet 
+- create infura account
+- create new project
+- view project
+- get end point url
+- select mainnet
+- copy url
+- go to ethexplorer and search dai
+- make sure this is an EOA, not smart contract
+- in terminal: ganache-cli -f type-mainnet-url -u paste-dai-address
