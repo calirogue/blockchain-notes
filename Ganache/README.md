@@ -1,5 +1,8 @@
 # Ganache CLI setup
 
+## Download
+1. npm install -g ganache-cli
+
 ## Host / port
 1. ganache-cli -h 127.0.0.1 -p 8000
 
