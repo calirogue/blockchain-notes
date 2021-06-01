@@ -1,15 +1,8 @@
-const Web3 = require('web3');
+const Web3 = require('web3')
+const rpcURL = "https://mainnet.infura.io/v3/api-key"
+const web3 = new Web3(rpcURL)
+const account = "account-number"
 
-const customProvider = {
-  sendAsync: (payload, cb) => {
-    console.log('test');
-    console.log(payload);
-    cb(undefined, 100)
-  }
-}
-// const provider = new Web3.provider.HttpProvider('http://localhost:8545')
-const web3 = new Web3(customProvider);
-// connected to the blockchain
-
-web3.eth.getBlockNumber()
-  .then(() => console.log('done'))
+web3.eth.getBalance(address, (err, wei) => {
+  balance = web3.utils.fromWei(wei, 'ether')
+})
